@@ -1,7 +1,7 @@
 /* To make things faster we added extension es7 
 wrote "rfce" and basic format automatially popped up*/
 import React from 'react';
-import "./Header.css";
+import "./CSS/Header.css";
 import SearchIcon from '@mui/icons-material/Search'; /*copied from material ui website to download search icon */
 import { ShoppingCartCheckout } from '@mui/icons-material';
 
@@ -9,7 +9,8 @@ function Header() {
   return (
     <div className='header'>
       <img className='header__logo'
-      src='https://nickiekrommingahill.com/wp-content/uploads/2020/05/white-amazon-logo-png-6.png' 
+      src='https://nickiekrommingahill.com/wp-content/uploads/2020/05/white-amazon-logo-png-6.png'
+            alt=''
       />
       <div className='header__search'>
         <input className='header__searchInput' type='text' />      
